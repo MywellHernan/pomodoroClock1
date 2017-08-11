@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+  position: relative;
+}
+
+body {
+  background: #008080;
+  color: white;
+  font-family: 'Saira', sans-serif;
+}
+
+#main {
+  margin: 0px 64px 0px 64px;
+}
+
+#progress {
+  width: 25%; 
+  margin: auto; 
+  margin-top: 40px; 
+  margin-bottom: 40px; 
+}
+
+.timerlabel {
+  font-size: 2em;
+}
+
+input {
+  text-align: center;
+  border: 0;
+  font-size: 1.3em;
+}
+/*to disable step arrows*/
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/*To put background same as body*/
+input[type=number], textarea {
+  background-color: #008080;
+}
+
+#t2 {
+  color: #008080;
+}
+
+.btn:disabled{
+  cursor:default;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: #334242;
+  color: white;
+}
+
+#fcc {
+  color: #006400;
+}

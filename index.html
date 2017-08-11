@@ -1,0 +1,45 @@
+<div class="container text-center">
+  <h1>Pomodoro Clock</h1>
+  <div class="row" id="main">
+    <div class="col-sm-4 col-md-4">     
+      <h4 id="t1">Session Time</h4>
+      <button type="button" class="btn btn-default sttr" id="minusS">
+        <i class="fa fa-minus"></i>
+      </button>
+      <input id="sNum" type="number" value="25" min="1" max="120" readonly>
+      <button type="button" class="btn btn-default sttr" id="plusS">
+        <i class="fa fa-plus"></i>
+      </button>
+    </div>
+    <div class="col-sm-4 col-md-4">
+      <h4 id="t2">Controls</h4>
+      <button id="restore" type="button" class="btn btn-info">
+        <i class="fa fa-undo"></i>
+      </button>
+      <button id="start" type="button" class="btn btn-success">
+        <i class="fa fa-play"></i>
+      </button>
+      <button id="pause" type="button" class="btn btn-warning">
+        <i class="fa fa-pause"></i>
+      </button>
+    </div>
+    <div class="col-sm-4 col-md-4">
+      <h4 id="t3">Break Time</h4>
+      <button type="button" class="btn btn-default sttr" id="minusB">
+        <i class="fa fa-minus"></i>
+      </button>
+      <input id="bNum" type="number" value="5" min="1" max="120" readonly>
+      <button type="button" class="btn btn-default sttr" id="plusB">
+        <i class="fa fa-plus"></i>
+      </button>
+    </div>
+  </div>
+  <br>
+  <div id="progress"></div>
+<footer class="footer navbar-fixed-bottom text-center">
+  <div class="container">
+    <p>By Mywell Hernan 2017 
+    <a href="https://www.freecodecamp.com/" target="blank" id="fcc"><span class="fa fa-free-code-camp fa-2x"> </span></a></p>
+    <p>Sounds by <a href="http://soundbible.com/" target="blank">SoundBible.com</a> and created by Daniel Simon</p>
+  </div>
+</footer>
